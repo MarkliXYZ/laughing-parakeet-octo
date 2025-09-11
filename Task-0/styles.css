@@ -1,0 +1,13 @@
+
+body, h1, h2, h3, h4, h5, h6, p, header, footer, section, main {
+    font-family: 'Inter', sans-serif;
+}
+code, pre {
+    font-family: 'Source Code Pro', monospace;
+}
+
+footer {
+    background-color: #231161;
+    color: #C99700;
+    font-weight: bold;
+}
