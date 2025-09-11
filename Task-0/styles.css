@@ -1,4 +1,3 @@
-
 body, h1, h2, h3, h4, h5, h6, p, header, footer, section, main {
     font-family: 'Inter', sans-serif;
 }
@@ -10,4 +9,36 @@ footer {
     background-color: #231161;
     color: #C99700;
     font-weight: bold;
+}
+
+body {
+    background-color: #eaeaea;
+    color: #362e4a;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+header, footer {
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 8px rgba(40, 20, 100, 0.08);
+}
+
+main {
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(40, 20, 100, 0.04);
+    margin:auto;
+    max-width: 90%;
+}
+
+code, pre {
+    background: #8b8b8b;
+    padding: 0.3em 0.6em;
+    border-radius: 3px;
+    font-size: 1em;
 }
