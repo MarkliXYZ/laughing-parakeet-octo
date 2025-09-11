@@ -1,13 +1,16 @@
 body, h1, h2, h3, h4, h5, h6, p, header, footer, section, main {
     font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
 }
 code, pre {
     font-family: 'Source Code Pro', monospace;
+    font-optical-sizing: auto;
 }
 
+/*Using official color from https://brand.sfsu.edu/color?e=kd50mfgfddp instead of link provided in readme*/
 footer {
-    background-color: #231161;
-    color: #C99700;
+    background-color: #442C8B;
+    color: #DCAE27;
     font-weight: bold;
 }
 
@@ -31,9 +34,15 @@ header, footer {
 main {
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 2px 16px rgba(40, 20, 100, 0.04);
     margin:auto;
     max-width: 90%;
+}
+
+#algorithm
+{
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(40, 20, 100, 0.04);
 }
 
 code, pre {
