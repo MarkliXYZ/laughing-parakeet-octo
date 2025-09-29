@@ -1,4 +1,6 @@
-/* remove thic comment to add @import font or CSS variables at the top of this file */
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css');
+
 * {
   box-sizing: border-box;
 }
@@ -43,3 +45,129 @@ header, footer {
 
 /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
 
+/*https://fonts.google.com/specimen/Faustina*/
+body {
+  font-family: "Faustina", serif;
+  font-size: 10px;
+  line-height: 2;
+  color: black;
+  letter-spacing: 0.15px;
+  word-spacing: 1.1px;
+}
+
+h1, h2{
+  font-family: Faustina, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  letter-spacing: 1.1px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 23px;
+  margin-bottom: 1.6rem;
+}
+
+section h1 + p,
+section h2 + p {
+  text-indent: 1.25rem;
+}
+
+a {
+  color: #3b2424;
+  text-decoration: underline;
+  outline: none;
+}
+
+a:visited {
+  color: #261717;
+}
+
+a:hover,
+a:focus {
+  color: #c88;
+  text-decoration: none;
+  background-color: #f5eaea;
+}
+
+a:active {
+  color: #fff;
+  background-color: #a66;
+  text-decoration: underline wavy;
+  border-radius: 5px;
+  padding: 0 4px;
+}
+
+/*Using fonrtawesome to add an icon after external links*/
+a[href^="http"]:after,
+a[href^="https"]:after {
+  font-family: 'FontAwesome';
+  content: "\f08e";
+  font-size: .5em;
+  color: #3b2424;
+  vertical-align: middle;
+}
+
+ul, ol {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+nav {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+nav li {
+  padding: 0.8rem 1rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+nav li:hover {
+  background-color: #f8f9fa;
+  border-color: #a66;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #212529;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #a66;
+  text-decoration: underline;
+}
