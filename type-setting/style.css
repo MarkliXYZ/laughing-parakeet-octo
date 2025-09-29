@@ -48,7 +48,7 @@ header, footer {
 /*https://fonts.google.com/specimen/Faustina*/
 body {
   font-family: "Faustina", serif;
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 2;
   color: black;
   letter-spacing: 0.15px;
@@ -56,7 +56,6 @@ body {
 }
 
 h1, h2{
-  font-family: Faustina, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   margin-top: 0;
@@ -66,18 +65,16 @@ h1, h2{
 
 h1 {
   font-size: 50px;
-  font-weight: 600;
   text-align: center;
 }
 
 h2 {
   font-size: 45px;
-  font-weight: 600;
 }
 
 p {
   font-size: 23px;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2rem;
 }
 
 section h1 + p,
@@ -97,14 +94,14 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: #c88;
+  color: #996565;
   text-decoration: none;
   background-color: #f5eaea;
 }
 
 a:active {
-  color: #fff;
-  background-color: #a66;
+  color: white;
+  background-color: #aa6666;
   text-decoration: underline wavy;
   border-radius: 5px;
   padding: 0 4px;
@@ -148,26 +145,26 @@ nav ul {
 
 nav li {
   padding: 0.8rem 1rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: white;
+  border: 1.5px solid #dee2e6;
   border-radius: 0.25rem;
   transition: background 0.2s, border-color 0.2s;
 }
 
 nav li:hover {
-  background-color: #f8f9fa;
+  background-color: white;
   border-color: #a66;
 }
 
 nav a {
   display: block;
   text-decoration: none;
-  color: #212529;
+  color: #22273e;
   font-weight: 500;
 }
 
 nav a:hover,
 nav a:focus {
-  color: #a66;
+  color: #996565;
   text-decoration: underline;
 }
