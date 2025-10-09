@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>DOM Activity: Color Buttons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* Minimal styles so you can "see" things */
+    :root { --gap: 0.75rem; --btn-pad: 0.6rem 0.9rem; }
+    body { font-family: system-ui, sans-serif; line-height: 1.4; margin: 2rem; transition: background-color 200ms ease; }
+    #controls { display: flex; gap: var(--gap); flex-wrap: wrap; margin-block: 1rem; }
+    button { padding: var(--btn-pad); border-radius: 0.5rem; border: 1px solid #ccc; cursor: pointer; }
+    button:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+  </style>
+</head>
+<body>
+  <h1>DOM Activity: Create Buttons & Paint the Page</h1>
+  <p id="description">We will create three buttons via JS and change the page background.</p>
+
+  <div id="controls" aria-label="Background color controls"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
