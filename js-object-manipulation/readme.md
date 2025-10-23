@@ -119,8 +119,7 @@ Refer to the MDN Web Docs for help with JavaScript syntax and methods.
 
 Output
 
-sculptureListLengths:
-````
+```
 sculptureListLengths:
 [
   {
