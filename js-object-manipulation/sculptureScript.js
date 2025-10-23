@@ -9,7 +9,7 @@ const getStringLengths = (obj) =>
 const sculptureListLengths = sculptureList.map(getStringLengths);
 
 // it aks for a loop, i guess the map is technically a loop but here is a for loop method
-// personally i liek to use map more since all the js framework stuff i do.
+// personally i liek to use map more since all the js framework stuff i do uses map more than  loop.
 // for (const sculpture of sculptureList) {
 //     const lengthsObject = {};
 //     for (const key in sculpture) {
