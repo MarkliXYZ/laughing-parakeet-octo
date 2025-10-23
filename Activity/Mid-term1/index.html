@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Desired layout; width of the navbar is entire width of the viewwport. Height is set to 5 rem.-->
+<!--Logo on the left of the nav bar and button on the right side use resonable margin/gap-->
+<style>
+    .navbar
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 0 1rem;
+        height: 5rem;
+    }
+
+    .nav-links{
+        display: flex;
+        justify-content: center;
+        /*list-style: none;*/
+        gap: 2rem;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">Mylogo</div>
+    <ui class="nav-links">
+        <li>Home
+        <li>About</li>
+        <li>Contact</li>
+    </ui>
+</nav>
+
+</body>
+</html>
