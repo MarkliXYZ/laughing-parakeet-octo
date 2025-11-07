@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dictionary lookup webapp" />
+    <title>Dictionary Lookup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="/node_modules/axios/dist/axios.min.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Dictionary Lookup</h1>
+        <p class="subtitle">Find out and learn more about a word or phrase</p>
+      </header>
+
+      <main>
+        <form id="searchForm" class="search-form" role="search">
+          <div class="input-wrapper">
+            <label for="wordInput" class="visually-hidden">Enter word</label>
+            <input
+              type="text"
+              id="wordInput"
+              class="word-input"
+              placeholder="Enter something to get started..."
+              autocomplete="off"
+              required
+            />
+          </div>
+          <button type="submit" class="search-button">Search</button>
+        </form>
+
+        <div id="resultsSection" aria-live="polite"></div>
+      </main>
+
+      <footer class="footer">
+        <p>
+          Built on Express.js and using the api from
+          <a
+            href="https://dictionaryapi.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Free Dictionary API</a
+          >
+        </p>
+        <p>
+          Results licensed under
+          <a
+            href="https://creativecommons.org/licenses/by-sa/3.0"
+            target="_blank"
+            rel="noopener noreferrer"
+            >CC BY-SA 3.0</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://github.com/MarkliXYZ/laughing-parakeet-octo/dict-api"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub Repo</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

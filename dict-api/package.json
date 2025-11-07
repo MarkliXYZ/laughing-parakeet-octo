@@ -1,0 +1,23 @@
+{
+  "name": "dict-api",
+  "version": "0.0.0",
+  "description": "Dictionary lookup app with Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.14.1",
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.5.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.6.2"
+  }
+}
